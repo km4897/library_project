@@ -23,7 +23,7 @@ Group Seven
 
 ## Requirements
 
-Install XAMPP with Apache, MySQL, and PHP enabled. The project uses PHP PDO with MySQL or MariaDB. No Composer packages are required.
+Install XAMPP with Apache, MySQL, and PHP enabled. The project uses PHP PDO with MySQL or MariaDB.
 
 ## Installation and running on XAMPP
 
