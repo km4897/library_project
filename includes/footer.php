@@ -12,3 +12,4 @@
         </div>
     </div>
 </footer>
+<script src="<?= BASE_URL ?>/assets/js/project.js"></script>
