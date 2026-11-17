@@ -18,8 +18,8 @@ Group Seven
 | 6   | Namirembe Swabulah       | 270-391   | Members                                 |
 | 7   | Abdirizak Dahir Adan     | 238-287   | Authors                                 |
 | 8   | Mwaka John Samuel        | 247-493   | Shared includes and project integration |
-| 9   | Abdifitaah Mohamuud Abdi | 264-033   | TODO: add responsibility                |
-| 10  | Musa Yahya Ali           | 149-956   | TODO: add responsibility                |
+| 9   | Abdifitaah Mohamuud Abdi | 264-033   | report                                  |
+| 10  | Musa Yahya Ali           | 149-956   | Styles.css                              |
 
 ## Requirements
 
