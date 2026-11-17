@@ -7,7 +7,7 @@
         </p>
 
         <div class="footer-branding">
-            <strong>Group Focus</strong>
+            <strong>Group Seven</strong>
             <span>Together We Achieve More</span>
         </div>
     </div>

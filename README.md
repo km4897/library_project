@@ -1,4 +1,4 @@
-# Library Management System
+# library_project: Library Management System
 
 GitHub repository: <https://github.com/sj273178/library_project>.
 
@@ -6,16 +6,20 @@ This PHP and MySQL Library Management System was built for DB II CAT 2. An authe
 
 ## Group members and responsibilities
 
-| Student     | Main responsibility                     |
-| ----------- | --------------------------------------- |
-| Mwaka       | Shared includes and project integration |
-| Milly       | Authentication                          |
-| Jeslor      | Configuration, database, and categories |
-| Esther M    | Books                                   |
-| Suban       | Loans                                   |
-| Tukamushaba | Index page and dashboard                |
-| Abdirizak   | Authors                                 |
-| Swaburah    | Members                                 |
+Group Seven
+
+| No. | Student                  | ID number | Main responsibility                     |
+| --- | ------------------------ | --------- | --------------------------------------- |
+| 1   | Kyamanywa Milly          | 004-897   | Authentication                          |
+| 2   | Musiime Esther           | 263-557   | Books                                   |
+| 3   | Ruth Tukamushaba         | 269-820   | Index page and dashboard                |
+| 4   | Ssozi Jeslor             | 273-178   | Configuration, database, and categories |
+| 5   | Suban Mohamed Abdishire  | 274-605   | Loans                                   |
+| 6   | Namirembe Swabulah       | 270-391   | Members                                 |
+| 7   | Abdirizak Dahir Adan     | 238-287   | Authors                                 |
+| 8   | Mwaka John Samuel        | 247-493   | Shared includes and project integration |
+| 9   | Abdifitaah Mohamuud Abdi | 264-033   | TODO: add responsibility                |
+| 10  | Musa Yahya Ali           | 149-956   | TODO: add responsibility                |
 
 ## Requirements
 
@@ -25,11 +29,11 @@ Install XAMPP with Apache, MySQL, and PHP enabled. The project uses PHP PDO with
 
 1. Download and install XAMPP from [Apache Friends](https://www.apachefriends.org/). The normal Windows installation folder is `C:\xampp`.
 2. Open the XAMPP Control Panel and start both Apache and MySQL. If Apache does not start, close the program using port 80 or 443, or change the Apache port in its configuration.
-3. Copy this complete project folder into `C:\xampp\htdocs\` and name the folder `library-system`.
+3. Copy this complete project folder into `C:\xampp\htdocs\` and name the folder `library_project`.
 4. Open `http://localhost/phpmyadmin` in a browser. Create a database named `library_db` with collation `utf8mb4_general_ci` if phpMyAdmin asks for one. The supplied SQL file also recreates the database from scratch.
 5. Select the database in phpMyAdmin, choose **Import**, select `database/library_db.sql`, then click **Import**. This creates all tables, relationships, constraints, and sample data.
 6. Check `config/database.php`. A new XAMPP installation normally uses host `localhost`, username `root`, and an empty password. Update the values only if your local MySQL configuration is different.
-7. Open `http://localhost/library-system` in the browser. Sign in with username `admin` and password `password`.
+7. Open `http://localhost/library_project` in the browser. Sign in with username `admin` and password `password`.
 
 ## Test accounts
 

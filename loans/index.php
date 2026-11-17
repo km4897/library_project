@@ -52,7 +52,7 @@ require __DIR__ . '/../includes/header.php';
                     <td><?= e($loan['date_returned'] ?? '—') ?></td>
                     <td>
                         <?php if (!$loan['date_returned']): ?>
-                            <form method="post" action="return.php" class="inline-form"><input type="hidden" name="id" value="<?= $loan['loan_id'] ?>"><button class="button small" data-confirm="Mark this book returned?">Return</button></form>
+                            <form method="post" action="return.php" class="inline-form"><input type="hidden" name="id" value="<?= e((string) $loan['loan_id']) ?>"><button class="button small" data-confirm="Mark this book returned?">Return</button></form>
                         <?php endif; ?>
                     </td>
                 </tr>

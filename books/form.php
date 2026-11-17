@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/../includes/auth_check.php';
+
 $authors = $pdo->query('SELECT * FROM authors ORDER BY name')->fetchAll();
 $categories = $pdo->query('SELECT * FROM categories ORDER BY name')->fetchAll();
 ?>
@@ -12,14 +14,14 @@ $categories = $pdo->query('SELECT * FROM categories ORDER BY name')->fetchAll();
     <div><label>Author
         <select name="author_id" required>
             <?php foreach ($authors as $author): ?>
-                <option value="<?= $author['author_id'] ?>" <?= ($book['author_id'] ?? 0) == $author['author_id'] ? 'selected' : '' ?>><?= e($author['name']) ?></option>
+                <option value="<?= e((string) $author['author_id']) ?>" <?= ($book['author_id'] ?? 0) == $author['author_id'] ? 'selected' : '' ?>><?= e($author['name']) ?></option>
             <?php endforeach; ?>
         </select>
     </label></div>
     <div><label>Category
         <select name="category_id" required>
             <?php foreach ($categories as $category): ?>
-                <option value="<?= $category['category_id'] ?>" <?= ($book['category_id'] ?? 0) == $category['category_id'] ? 'selected' : '' ?>><?= e($category['name']) ?></option>
+                <option value="<?= e((string) $category['category_id']) ?>" <?= ($book['category_id'] ?? 0) == $category['category_id'] ? 'selected' : '' ?>><?= e($category['name']) ?></option>
             <?php endforeach; ?>
               </select>
     </label></div>

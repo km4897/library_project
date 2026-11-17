@@ -24,7 +24,7 @@ require __DIR__ . '/../includes/header.php';
 </div>
 <section class="stats">
     <?php foreach ($counts as $label => $count): ?>
-        <div class="stat"><span><?= e($label) ?></span><strong><?= $count ?></strong></div>
+        <div class="stat"><span><?= e($label) ?></span><strong><?= e((string) $count) ?></strong></div>
     <?php endforeach; ?>
 </section>
 <?php require __DIR__ . '/../includes/footer.php'; ?>
