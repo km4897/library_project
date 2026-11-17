@@ -42,6 +42,7 @@ $page_title = 'Sign in';
 require __DIR__ . '/../includes/header.php';
 ?>
 <section class="auth-card card">
+    <img class="auth-logo" src="<?= BASE_URL ?>/assets/images/logo_small.png" alt="Library Management System logo">
     <h1>Library Management System</h1>
     <p class="muted">Sign in to manage the library.</p>
 

@@ -1,10 +1,15 @@
+    </div>
+</main>
 <footer class="site-footer">
     <div class="container footer-content">
-        <p>
-            &copy; <?= date('Y') ?>
-            <strong>Library Management System</strong>.
-            All rights reserved.
-        </p>
+        <div class="footer-brand">
+            <img class="footer-logo" src="<?= BASE_URL ?>/assets/images/logo_small.png" alt="Library Management System logo">
+            <p>
+                &copy; <?= date('Y') ?>
+                <strong>Library Management System</strong>.
+                All rights reserved.
+            </p>
+        </div>
 
         <div class="footer-branding">
             <strong>Group Seven</strong>
@@ -13,3 +18,5 @@
     </div>
 </footer>
 <script src="<?= BASE_URL ?>/assets/js/project.js"></script>
+</body>
+</html>
